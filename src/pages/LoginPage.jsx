@@ -40,7 +40,6 @@ export const LoginPage = () => {
 
   return (
     <>
-      {/* Overskrift på login-siden */}
       <h1>Login</h1>
 
       {/* Viser brugeroplysninger, hvis de er tilgængelige */}

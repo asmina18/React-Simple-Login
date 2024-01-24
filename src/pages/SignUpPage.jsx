@@ -40,7 +40,6 @@ export function SignUpPage() {
 
   return (
     <>
-      {/* Overskrift på tilmeldingssiden */}
       <h2>Sign Up</h2>
       
       {/* Viser meddelelse fra serveren, hvis der er en */}

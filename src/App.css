@@ -9,5 +9,5 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Sørger for, at flex-containeren er mindst hele vinduets højde */
+  height: 100vh; 
 }

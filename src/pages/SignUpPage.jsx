@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import style from "../pages/SignUpPage.module.scss";
+
 
 // Definerer en komponent kaldet SignUpPage
 export function SignUpPage() {
@@ -41,13 +43,13 @@ export function SignUpPage() {
   return (
     <>
       <h2>Sign Up</h2>
-      
+
       {/* Viser meddelelse fra serveren, hvis der er en */}
       {message && <b>{message}</b>}
 
       {/* Formular til at indsende tilmeldingsoplysninger */}
-      <form onSubmit={(event) => handleSignUp(event)}>
-    
+      <form className={style.formStyle} onSubmit={(event) => handleSignUp(event)}  >
+
         <label>
           Name:
           <input type="text" name="name" />
